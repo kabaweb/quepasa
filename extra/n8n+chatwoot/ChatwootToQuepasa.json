@@ -514,15 +514,15 @@
             },
             {
               "name": "query.qphost",
-              "value": "={{ $json.query.qphost ?? 'http://127.0.0.1:31000' }}"
+              "value": "={{ $json.query.qphost ?? 'http://quepasa:31000' }}"
             },
             {
               "name": "query.cwhost",
-              "value": "={{ $json.query.cwhost ?? 'http://127.0.0.1:3000' }}"
+              "value": "={{ $json.query.cwhost ?? 'http://chatwoot:3000' }}"
             },
             {
               "name": "query.n8nhost",
-              "value": "={{ $json.query.n8nhost ?? 'http://127.0.0.1:5678' }}"
+              "value": "={{ $json.query.n8nhost ?? 'http://n8n:5678' }}"
             },
             {
               "name": "query.inbox",

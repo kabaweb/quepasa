@@ -614,15 +614,15 @@
           "string": [
             {
               "name": "URL N8N",
-              "value": "http://127.0.0.1:5678"
+              "value": "http://n8n:5678"
             },
             {
               "name": "URL DO QUEPASA",
-              "value": "http://127.0.0.1:31000"
+              "value": "http://quepasa:31000"
             },
             {
               "name": "URL CHATWOOT",
-              "value": "http://127.0.0.1:3000"
+              "value": "http://chatwoot:3000"
             },
             {
               "name": "CHATWOOT URL WITH PUBLIC DOMAIN",
