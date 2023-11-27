@@ -83,8 +83,8 @@ func (server *QpWhatsappServer) GetStatus() whatsapp.WhatsappConnectionState {
 
 // Returns whatsapp controller id on E164
 // Ex: 5521967609095
-func (server *QpWhatsappServer) GetWid() string {
-	return server.WId
+func (server QpWhatsappServer) GetWId() string {
+	return server.QpServer.WId
 }
 
 func (server *QpWhatsappServer) DownloadData(id string) ([]byte, error) {
